@@ -1,6 +1,6 @@
 ---
 layout: center
-title: Lauderdale Recycling Center4 
+title: Lauderdale Recycling Center
 phone: 731-836-5104 
 address: 3231 Curve Nankipoo Rd 
 city: Ripley
