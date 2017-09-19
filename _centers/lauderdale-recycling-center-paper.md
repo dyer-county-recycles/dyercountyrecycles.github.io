@@ -9,6 +9,7 @@ zip: 38063
 primary: paper
 categories:
   paper
+  plastic
 ---
 
 Separate malleable plastic from hard plastic and paper from cardboard 
