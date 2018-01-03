@@ -5,14 +5,11 @@ body {
   @include bg-gradient();
 }
 
-header.site-header {
-  background: url('../img/dcrecycles-banner.png');
-  background-size: contain;
-}
-
-video {
-  margin: 0 auto;
-  padding: 0;
+.site-header {
+  .wrapper {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .page-content {
@@ -32,12 +29,6 @@ section.front {
 
 .hidden {
   display: none;
-}
-
-.video-overlay {
-  display: block;
-  margin: 0 auto;
-  padding-top: 15px;
 }
 
 textarea {
