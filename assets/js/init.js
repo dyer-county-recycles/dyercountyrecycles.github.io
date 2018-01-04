@@ -1,8 +1,5 @@
-// For now, redirect to Facebook page.
-window.location = "https://www.facebook.com/dyercountyrecycles/";
-
 // Load facebook sdk.
-/*window.fbAsyncInit = function() {
+window.fbAsyncInit = function() {
   FB.init({
     appId            : 'dyercountyrecycles',
     autoLogAppEvents : true,
@@ -18,4 +15,4 @@ window.location = "https://www.facebook.com/dyercountyrecycles/";
   js = d.createElement(s); js.id = id;
   js.src = "https://connect.facebook.net/en_US/sdk.js";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));*/
+}(document, 'script', 'facebook-jssdk'));
