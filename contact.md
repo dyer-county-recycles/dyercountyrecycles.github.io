@@ -2,6 +2,8 @@
 layout: page
 title: Contact
 permalink: /contact/
+active: true
+weight: 4
 ---
 
 <form action="https://formspree.io/patthropus@gmail.com" method="POST">

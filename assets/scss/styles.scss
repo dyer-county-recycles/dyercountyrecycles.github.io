@@ -1,8 +1,9 @@
 @import '_vars';
+@import '_breakpoints';
 @import '_mixins';
 
 body {
-  @include bg-gradient();
+  //@include bg-gradient();
 }
 
 .site-header {
@@ -39,4 +40,24 @@ textarea {
 
 input[name="_gotcha"] {
   display: none;
+}
+
+// Moves sidebar to the side for desktop.
+aside {
+  @include breakpoint(desktop) {
+    float: left;
+    width: 30%
+  }
+}
+main {
+  @include breakpoint(desktop) {
+    float: right;
+    width: 69%;
+  }
+}
+
+footer {
+  @include breakpoint(desktop) {
+    clear: both;
+  }
 }

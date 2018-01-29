@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+active: true
+weight: 1
 ---
 
 We are a non-profit organization educating local citizens about the existing availability for recycling in Dyer County and working towards making overall recycling more accessible.
