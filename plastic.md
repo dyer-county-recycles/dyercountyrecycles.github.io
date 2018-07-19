@@ -1,5 +1,6 @@
 ---
 layout: collection_page
 title: Plastic
-permalink: /plastic/
+page-category: "menu"
+permalink: /recycling/plastic/
 ---

@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+page-category: "menu"
 active: true
 weight: 4
 ---

@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+page-category: "menu"
 active: true
 weight: 1
 ---

@@ -1,6 +1,7 @@
 ---
 layout: collection_page
 title: Metal
-permalink: /metal/
+page-category: "menu"
+permalink: /recycling/metal/
 ---
 

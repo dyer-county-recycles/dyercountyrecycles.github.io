@@ -1,11 +1,9 @@
 <nav id="menu">
-  
-  <div class="wrapper">
-    <ul>
-    {% for page in site.pages %}
+  <ul>
+  {% for page in site.pages %}
+    {% if page.page-category == "menu" %}
       <li><a href="{{page.url}}">{{page.title}}</a></li>
-    {% endfor %}
-    </ul>
-  </div>
-
+    {% endif %}
+  {% endfor %}
+  </ul>
 </nav>
